@@ -1,22 +1,65 @@
-# Predictive Modeling of Respiratory Virus Hospitalization Trends in the USA
-The COVID-19 pandemic has profoundly affected global health systems all over the world.
-Accurate forecasting of hospitalizations is essential for effective resource allocation and management of the healthcare system.
+## 📊 Overview
 
-## Why We Choose This Project?
-This project was chosen to improve how health resources are allocated and managed during the COVID-19 pandemic.
-Accurate forecasting of hospitalizations is essential for optimizing resource allocation and enhancing preparedness and response strategies.
+This project applies advanced machine learning and deep learning models to forecast hospitalization trends related to respiratory viruses, focusing on COVID-19 in the USA. The goal is to assist healthcare systems in planning and resource allocation, using CDC's real-world hospitalization data.
+
+📍 Project Duration: Jan 2024 – April 2024  
+👩‍🔬 Team: Bala Sai Santhoshi, Venkata Sai Swaroop, Kesari Nandan, Ruchita Das ,Raja Pavan Kalyan.
+📚 Institution: Under the supervision of Prof. Masoud Soroush, DATA-602
+
+## 🎯 Why This Project?
+
+The COVID-19 pandemic underscored the urgent need for data-driven decision-making in healthcare. By predicting hospitalizations, this project aims to:
+
+- Optimize health resource allocation
+- Enhance emergency preparedness
+- Inform public health policies
+- Support data-driven pandemic response
+
+## 🗃️ Dataset
+
+- 📌 Source: [CDC Respiratory Virus Response (RVR)](https://data.cdc.gov/Public-Health-Surveillance/Respiratory-Virus-Response-RVR-United-States-Hospi/9t9r-e5a3)
+- 📊 Rows: ~84,000 | 🧬 Columns: 115
+- 📅 Time Range: Jan 2021 – Early 2024
+- 📍 Coverage: National, HHS region, state/territory level
+- 👶 Pediatric Focus: COVID admissions segmented by age groups (0–4, 5–11, 12–17)
+
+## 🛠️ Methodology
+
+1. **Data Cleaning**: Handled missing values, removed >50% null columns, managed duplicates
+2. **Exploratory Data Analysis**: Seasonal peaks, state-level trends, age-group insights
+3. **Feature Selection**: Correlation matrix, random forest importance ranking
+4. **Modeling**:
+   - 🔁 Regression: Linear, Polynomial, Decision Tree, SVR, XGBoost, Random Forest
+   - 🧠 Neural Nets: Classic and CNN architectures
+   - 🧪 Ensemble: Stacking classifier
+5. **Evaluation**: R², MSE, accuracy %, generalization vs. overfitting analysis
+
+## 📈 Results
+
+- 🔍 **Best Model**: Random Forest Regressor (R² ≈ 0.96)
+- 🧠 CNN performed with R² ≈ 0.83 and good validation visualization
+- ⚙️ XGBoost and Ensemble models showed high consistency across test/train
+- 🚑 Key Factors: Age, flu comorbidity, bed availability, region, and season
+
+
+
+## Visuals 
+
+
+
+## 🌍 Insights & Public Health Impact
+
+- 🎯 High-risk groups and seasons identified (elderly, winter months)
+- 🗺️ Regional disparities in hospitalization trends
+- 🏥 Predictions support proactive bed/staff allocation
+- 📢 Can guide future policy on vaccinations, masking, and outreach
+
 
 ## Goal of This Project
 The goal of this project is to develop predictive models that forecast COVID-19 hospitalizations using data provided by the Centers for Disease Control and Prevention (CDC) on the website cdc.gov
 By doing so, the project aims to help healthcare systems in the United States allocate resources more effectively and manage healthcare services more efficiently during the pandemic.
 This will ultimately improve health outcomes and reduce the impact of the pandemic in the future.
 
-## METHODOLOGY 
-THIS IS HOW I DID THINGS FOR MY REFERENCE ONLY 
- TYPE OF AREA USING 
- PROBLEM THAT I AM SOLVING 
- METHODS USING 
- RESULTS 
  
 INCLUDE PICTURES ,GRAPHS ,PERFORMANCES ,CHARTS REALLY GOOD IDEAS 
 
