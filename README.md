@@ -18,7 +18,6 @@ The COVID-19 pandemic underscored the urgent need for data-driven decision-makin
 ## 🗃️ Dataset
 
 - 📌 Source: [CDC Respiratory Virus Response (RVR)](https://data.cdc.gov/Public-Health-Surveillance/Respiratory-Virus-Response-RVR-United-States-Hospi/9t9r-e5a3)
-- 📊 Rows: ~84,000 | 🧬 Columns: 115
 - 📅 Time Range: Jan 2021 – Early 2024
 - 📍 Coverage: National, HHS region, state/territory level
 - 👶 Pediatric Focus: COVID admissions segmented by age groups (0–4, 5–11, 12–17)
@@ -42,7 +41,6 @@ The COVID-19 pandemic underscored the urgent need for data-driven decision-makin
 - 🚑 Key Factors: Age, flu comorbidity, bed availability, region, and season
 
 
-
 ## Visuals 
 #### 📈 COVID-19 Hospital Admissions Over Time
 This line graph shows the number of all confirmed COVID-19 hospital admissions across the USA over time. You can clearly see the surges and seasonal waves, especially during winter months 
@@ -60,8 +58,6 @@ Model Performance Comparison (R² Scores)
 <img width="607" alt="image" src="https://github.com/user-attachments/assets/f3383506-eea5-4ec5-a438-97f658b9ed40" />
 
 The Random Forest and Classic Neural Network models show the highest predictive accuracy, while models like SVR and Stacking performed less effectively.
-
-
 
 ## 🌍 Insights & Public Health Impact
 
