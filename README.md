@@ -45,9 +45,21 @@ The COVID-19 pandemic underscored the urgent need for data-driven decision-makin
 
 ## Visuals 
 #### 📈 COVID-19 Hospital Admissions Over Time
-This line graph shows the number of all confirmed COVID-19 hospital admissions across the USA over time. You can clearly see the surges and seasonal waves, especially during winter months — valuable for illustrating trends to recruiters or healthcare stakeholders.
+This line graph shows the number of all confirmed COVID-19 hospital admissions across the USA over time. You can clearly see the surges and seasonal waves, especially during winter months 
 <img width="612" alt="image" src="https://github.com/user-attachments/assets/277946e7-497e-4a12-93e5-8b7f15c8a22c" />
 
+#### 🔥 Feature Correlation Heatmap
+This heatmap displays the correlation between numerical features in the hospitalization dataset. It helps identify relationships between variables like:
+COVID-19 admissions by age group
+ICU and bed occupancy rates
+Hospital reporting metrics
+<img width="968" alt="image" src="https://github.com/user-attachments/assets/e266b0f0-1304-4224-9ecd-101714f53e85" />
+
+## Results 
+Model Performance Comparison (R² Scores)
+<img width="607" alt="image" src="https://github.com/user-attachments/assets/f3383506-eea5-4ec5-a438-97f658b9ed40" />
+
+The Random Forest and Classic Neural Network models show the highest predictive accuracy, while models like SVR and Stacking performed less effectively.
 
 
 
@@ -64,8 +76,21 @@ The goal of this project is to develop predictive models that forecast COVID-19 
 By doing so, the project aims to help healthcare systems in the United States allocate resources more effectively and manage healthcare services more efficiently during the pandemic.
 This will ultimately improve health outcomes and reduce the impact of the pandemic in the future.
 
- 
-INCLUDE PICTURES ,GRAPHS ,PERFORMANCES ,CHARTS REALLY GOOD IDEAS 
+ ## 🧑‍💻 Team & Contributions
+This project was collaboratively developed as part of the Data 602 course under the guidance of **Prof. Masoud Soroush**. Each team member played a key role in bringing this project to life.
+
+| Name | Contributions |
+|------|---------------|
+| **Raja Pavan Kalyan** | Data preprocessing, Feature engineering, Model building (Random Forest, SVR) |
+| **Bala Sai Santhoshi** | Exploratory Data Analysis (EDA), Visualization, Model tuning (XGBoost, AdaBoost) |
+| **Venkata Sai Swaroop** | Neural Network implementation, CNN structure, Model evaluation and comparison |
+| **Kesari Nandan** | Dataset research, Missing data handling, Literature review |
+| **Ruchita Das** | Report writing, Presentation design, Insights and public health impact analysis |
+
+🧪 Built using: **Python, Scikit-learn, Pandas, Matplotlib, Seaborn, TensorFlow/Keras**
+
+🤝 Collaboration powered by: **Jupyter Notebooks + GitHub**
+
 
 ## Conclusion 
 Insightful Patterns Identified: Our models have identified that age and pre-existing health conditions are significant predictors of hospitalization due to respiratory viruses. Seasonal trends also play a crucial role, with spikes in hospitalizations typically occurring in the winter months.
