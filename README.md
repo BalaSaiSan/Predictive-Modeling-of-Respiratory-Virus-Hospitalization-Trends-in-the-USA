@@ -44,6 +44,10 @@ The COVID-19 pandemic underscored the urgent need for data-driven decision-makin
 
 
 ## Visuals 
+#### 📈 COVID-19 Hospital Admissions Over Time
+This line graph shows the number of all confirmed COVID-19 hospital admissions across the USA over time. You can clearly see the surges and seasonal waves, especially during winter months — valuable for illustrating trends to recruiters or healthcare stakeholders.
+<img width="612" alt="image" src="https://github.com/user-attachments/assets/277946e7-497e-4a12-93e5-8b7f15c8a22c" />
+
 
 
 
